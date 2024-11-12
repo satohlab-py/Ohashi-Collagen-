@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 # デスクトップ上の指定されたTIFFファイルを読み込み
-file_path = '/Users/ayakaohashi/Desktop/XZ 208.tiff'
+file_path = '****.tiff' #here please put your file name /file path
 img = Image.open(file_path)
 
 # 画像をnumpy配列に変換
